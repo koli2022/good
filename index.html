@@ -1,79 +1,56 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Facebook - The Social Network</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="assets/css/style.css"/>
-        <style>
-            .login-form{
-                background: rgba(255,255,255,1);
-                padding: 10% 20px;
-                border-radius: 2px;
-                box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.4);
-            }
-            .main{
-                min-height:100vh;
-                padding:10% 0px;
-            }
-        </style>
-        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<script>
-  (adsbygoogle = window.adsbygoogle || []).push({
-    google_ad_client: "ca-pub-8894073675575663",
-    enable_page_level_ads: true
-  });
-</script>
-    </head>
-    <body>
-        <div class="header">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-sm-9">
-                        <div class="logo">
-                            <h1>Facebook</h1>
-                        </div>
-                    </div>
-                    <div class="col-sm-3 text-center">
-                        <a href="index.html" class="btn btn-primary" style="border-radius:20px;line-height:40px;border-bottom-left-radius: 0px;border-top-right-radius: 0px;">Signup</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="main">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="pull-left text-center col-sm-3">
-                    </div>
-                    <div class="pull-right col-sm-6 text-center">
-                        <div class="login-form">
-                            <p class="h3">Log in to Facebook</p>
-                            <form action="javascript:void(0);" onclick="window.location.href='dashboard.html'; return false;" method="post" style="max-width:400px;margin:0px auto;">
-                                <div class="form-group">
-                                    <input type="text" name="user_email" placeholder="Email Address" class="input-lg col-sm-12"/>
-                                </div>
-                                <div class="form-group">
-                                    <input type="password" placeholder="New Password" name="pwd" class="input-lg col-sm-12"/>
-                                </div>
-                                <div class="form-group">
-                                    <input type="submit" value="Login" class="btn btn-success input-lg col-sm-12"/>
-                                    <br/><br/><br/><br/>
-                                    <a href="index.html">Signup for Facebook</a>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="footer">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-sm-12">
-                        &copy; Facebook 2017.
-                    </div>
-                </div>
-            </div>
-        </div>
-    </body>
+<head>
+	<title>Our School Website</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<header>
+		<h1>Our School Website</h1>
+		<nav>
+			<ul>
+				<li><a href="#about">About Us</a></li>
+				<li><a href="#academics">Academics</a></li>
+				<li><a href="#admissions">Admissions</a></li>
+				<li><a href="#contact">Contact Us</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<section id="about">
+			<h2>About Us</h2>
+			<p>Welcome to our school website! Our school is a place where students can learn, grow, and thrive.</p>
+			<img src="school-image.jpg" alt="School Image">
+		</section>
+		<section id="academics">
+			<h2>Academics</h2>
+			<p>We offer a wide range of academic programs and courses to help our students succeed.</p>
+			<ul>
+				<li>Math</li>
+				<li>Science</li>
+				<li>English</li>
+				<li>History</li>
+			</ul>
+		</section>
+		<section id="admissions">
+			<h2>Admissions</h2>
+			<p>Are you interested in joining our school community? Learn more about our admissions process.</p>
+			<a href="admissions-form.html">Apply Now</a>
+		</section>
+		<section id="contact">
+			<h2>Contact Us</h2>
+			<p>Get in touch with us to learn more about our school or to schedule a tour.</p>
+			<ul>
+				<li>Phone: 555-555-5555</li>
+				<li>Email: [info@ourschool.edu](mailto:info@ourschool.edu)</li>
+				<li>Address: 123 School St, Anytown, USA</li>
+			</ul>
+		</section>
+	</main>
+	<footer>
+		<p>&copy; 2023 Our School Website</p>
+	</footer>
+</body>
 </html>
